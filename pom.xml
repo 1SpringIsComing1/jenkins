@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.kruhovy</groupId>
     <artifactId>jenkins</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>jenkins</name>
     <description>Maven Jenkins</description>
@@ -47,6 +47,7 @@
     </dependencies>
 
     <build>
+        <finalName>app</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
