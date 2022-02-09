@@ -16,6 +16,8 @@
     <description>Maven Jenkins</description>
     <properties>
         <java.version>1.8</java.version>
+        <tomcat.version>8.5.75</tomcat.version>
+
     </properties>
     <dependencies>
         <dependency>
